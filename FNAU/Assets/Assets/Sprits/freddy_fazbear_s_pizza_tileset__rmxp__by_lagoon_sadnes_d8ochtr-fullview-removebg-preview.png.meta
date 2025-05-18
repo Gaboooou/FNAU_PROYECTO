@@ -1,0 +1,3678 @@
+fileFormatVersion: 2
+guid: 6494e87fee463db418a59393d16f6a76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea208635bd735447b4ebb4fd18e7720
+      internalID: -1224043207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d188b076b512b6e4491d5133e5e50ebb
+      internalID: 715274376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de1aa6aba0f7d145a1a2bcf689995c5
+      internalID: -1283877524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4eb94ca6ca1e1479c29142e26ed381
+      internalID: -1438122686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb9afccb9dfec2428fe9d0bb0c3b960
+      internalID: -660520378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c72a7e252da1164f8551f655061556d
+      internalID: 2103919518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e17a34c3e843554fb7cd0b8fd4edb61
+      internalID: 681980775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb346a42c2d74d647b528dc07c81efba
+      internalID: -442220308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b32d2c5bb8200343901c7354d6d0e1f
+      internalID: -1766525104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274d8b48996d36b49bd85da73d2d89b1
+      internalID: 1942860389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170872b2e57f57e45906cdf67ce39c7f
+      internalID: 382395949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0846b5092dd7e4e84bfafd5bac803c
+      internalID: 1401696060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8288e6efc4f3c40b0e82b29aaafb9b
+      internalID: -1956039294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517efe153f552e459ff1c26cd2c1f25
+      internalID: -2032490985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9af98ffad9d24439b87b049f8654b6
+      internalID: -219814836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7befba91858048147b2fa29a0f4e81c3
+      internalID: -572563024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1e72a5acabcee469915e368fa79225
+      internalID: -1938685834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3251008b95406d4ba99f1a9b0079977
+      internalID: 2041129069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5867e4bc637ef42ba263e36ad8794a
+      internalID: 26381069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ee22f5ccd73c4cb2297878d7bf948
+      internalID: 1413713926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e4d4097ad3eea4db60c62c91d9f9ff
+      internalID: 1015073537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9dc7e6399db04e9389b64ee18ebe7
+      internalID: -1568123230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e859a4786637a384f8043c048cdb54d5
+      internalID: -917148325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a779f5cd5dd6c214993f2819769eba87
+      internalID: -1947019683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a04d7d960e2bf499de5ffddce6426a
+      internalID: 2019516958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32c7bfad66d284aa3a24bb95d24155
+      internalID: 543055029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69385e4fd8e62834fb970cbc391df1f1
+      internalID: -218047301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32774ba86a3660f49b25903e40041572
+      internalID: 291124800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4063ee4e2dc74f99a1b3c5dba4c1d
+      internalID: 853101904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb96a927ba8a3c4499aaa46564f1cbe2
+      internalID: -131460292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1333b35e24093984584951ea140f5eda
+      internalID: -212060033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7463890e76bed2f4b8e25ba2a29a31ea
+      internalID: -1523446607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee60e361e8c135547ba7fb47cbe47b08
+      internalID: -452824577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f6710d73e3a4446961ce66a55dbb6f
+      internalID: -571283251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cdcf55e64afc4438abfa94d749d077
+      internalID: -653190117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f097ed367c988c745bf28d1596c29c93
+      internalID: 1825671140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2821ae7b2e014db4094d70667dcb3a5d
+      internalID: 1310662463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abfa23e11a18f04cafda53e4d57b900
+      internalID: -1996920520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c68444b261f1e408212b8321767d6c
+      internalID: -1660652979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fa6eba349f9224eac63c93e6625232
+      internalID: -689061280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c356794e621bb498e78ed6913c3ea5
+      internalID: 1620751222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b6cb4bcf662544843b9ff835a4df1
+      internalID: 34091194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37ab771ffd7f042b9acd50ad0169f1
+      internalID: -924954657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79454c4ee6c4ff459a0261aa481a2ac
+      internalID: -816292055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872cea1e0b9f70d4a91580ea00fac7f8
+      internalID: -1710200598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5e690d7099bd647a4a9ee410a37158
+      internalID: 2077694129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4a5fd2faec8ed4c86ed0ec00e8c463
+      internalID: -188275151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9eb98e97fec4849b8f6e13379e2a29
+      internalID: -1879086200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e91ae53b7fa9e45ac6b58b22945398
+      internalID: -1167574772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddf2f4738e212f4a9bd7f3dd82137d3
+      internalID: 1913312811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a173bfeb04ab63f4597d3cc057715578
+      internalID: 121669766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2edcfcafdcc8f4dba8057fda8db3fb
+      internalID: -205241147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b7011483eb94e4da98a13ffcc63865
+      internalID: 813987192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1398cfbe077b7640b2ddafb3b5dedb0
+      internalID: -1254315188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ecc1b21a8726d468f26d71bafb5355
+      internalID: 730214784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d52796aa7ac07446964a0a3b44d33eb
+      internalID: -1197255036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52446a3ef731074b99cd89b709ab66c
+      internalID: 814356909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3783355e010a9a43b821664fb84a62e
+      internalID: 1156943530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5369c7a36416b254c81574c41db3d0d5
+      internalID: -842283766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8366b3ea238ab046bd49babcea78da2
+      internalID: -843763151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb42ab1e17f52a4793c1c002f2a3bc5
+      internalID: 1584236529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b87b510b378d904f8d6cb8e54a6fcab
+      internalID: -2109217296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e80ec11b9ee6042a51d0dc3a8706a0
+      internalID: 44114893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad261d44f6e4064d893687e260e91a7
+      internalID: 1035820162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc26f86f13ce7b4b99faadb7962d0d9
+      internalID: -1783435619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18793422f820fab448bb916a5d21592a
+      internalID: 1179309395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0e54bdaa091045b8b137f942e225e
+      internalID: -749100125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897898bdfd2ea1041a616b862c716716
+      internalID: 1661361808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2b7ce681469fa418cad5fc9e08b6e2
+      internalID: -936919050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236c5b5253cbebc4c9a65ff7d5a42236
+      internalID: 545869374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed2f309c3fb4e2478551264124c58c8
+      internalID: 912495458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c260c416b14896b4cb35645a0e46307d
+      internalID: -568046213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fa3c97c24f8c04bbaab00b8198b008
+      internalID: 223950287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70edb8b32d353e4580d7016c63ffe3e
+      internalID: 1405025063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86e23083d9fffa4b9e9ec8fd004faed
+      internalID: 1947828290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a3c20cb7e7548439508d3e7b8cb254
+      internalID: -1827133562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9884ba861a8aa684da7bbad26144f7c6
+      internalID: 1863181763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b531f2d346b564498972c691e663c10
+      internalID: 257639302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4468eee8b058e9a44b8f92d9606e43d9
+      internalID: 270649885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f1c13baac3c054098fd3a1234b1112
+      internalID: -1305687989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785fc2bb3dd8ba42846f000f43e4953
+      internalID: -611294232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d1b32e39b9cb64b8bb5ec732dd5ab5
+      internalID: 984205641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443c3b2ccad513e409929896dd53a848
+      internalID: 1193071253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03cd4b3e183eae48b9fd04e6b80e55d
+      internalID: 895749051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9076f3d2ba64dc74990ede69fa0b31fe
+      internalID: 96780028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f621f5894e85a7c46bc3010ae53ada55
+      internalID: -1919401833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61aa277e85bff948b30ef51a5693549
+      internalID: 1909724462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a50ac96dd476f342b721bd473e7ed4f
+      internalID: 304363163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf24102f193035440a1e6d59ff4de769
+      internalID: 320749498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f6aac76ccf99c448a5c4209fef0c18
+      internalID: -888998510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9870d39056f6fb64293f1b2c5fe7b0ae
+      internalID: 1864592303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d74207ddc584f48ac1024ccacac056
+      internalID: 1019354208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e113388ec25974eab41c7c05e4362f
+      internalID: 1678375860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d714c2e82c0a849b38ebbee0d2585d
+      internalID: 482883365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e55204bbb750474faa740df10f91709
+      internalID: -674635993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2361923ca285c5746ab4d9f8827e65a8
+      internalID: -1720539930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f425f64103c864986bf153a6082fba
+      internalID: 1916157874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3213e53e6c04df14d87cffde9bd24073
+      internalID: -496987335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696f62f8a45c06847a2b652c7db18738
+      internalID: 721004880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d1baf8b5e3f64a95451c7faefe39b
+      internalID: -1404485897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e5af5e29d2c2408fbfcdf2430a970
+      internalID: -307046086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63bbcaa2f6107e48be6db9c2f4d7abb
+      internalID: 1439263251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d9b86c81787d74f951a64448bca993
+      internalID: 441822353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9ef972de2ebfa44b12a37b774dc4fb
+      internalID: 606616348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c735032aead88642840d1d4d0088695
+      internalID: -1983713491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acdbacc7382ca849af9b5741f404209
+      internalID: 1316211277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81734fd50de10ef4b9d932030b32b22e
+      internalID: -257473785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415c2e7e3ca358c43aeafe8785297d99
+      internalID: 1422806144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe6511b098c1a458225abc36afe30e
+      internalID: -869988676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4950abef36cb7294c81e36297b717459
+      internalID: -1705035908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007b506abf7759242abe49d7f051c847
+      internalID: 1534505078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec163043f273e04296337e9d46fabd8
+      internalID: 1036628954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a96d69504a9694686ade965752829f
+      internalID: -640801941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22e60610272ce43b69c5d0a861917f
+      internalID: -1115200076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c4cb9697fded246856cb60f8f246ba
+      internalID: -664968223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e55b608959ce439195f1db1dee9ab
+      internalID: 304743008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c45a069db36a784dbd5d0a1c8914364
+      internalID: -1139417552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98e9332fe4caa344962dc40a0aa756b
+      internalID: 1834296349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ed66d12914f1f48b656b460eb2c5e6
+      internalID: 821030678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdc6e581b586ff44aa9c3643948410f
+      internalID: 319607389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef65270a8db7644185e63c92f06a97a
+      internalID: -343902504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c521b4ac761774e43a01927886c8fe01
+      internalID: -1481386476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748316d3ae3c9ab42a74fff968c038f1
+      internalID: -395058795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ba95ca37bb5d347afcda17bee90b15
+      internalID: -1222323588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411681eaed756614c837fc33a6d98b2b
+      internalID: 553194092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822e250edd6d324ab425b85efec151d
+      internalID: -1292487743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1299cde43177714e9d25684513d5a62
+      internalID: -1404837324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e78f224ce264c4f967b4ef009910bf
+      internalID: 633015157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ed22daef408b4dac094cd9c3c2af4
+      internalID: 1101954902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410a0493fcc3e5c418f7bd411ead4e19
+      internalID: -1504074729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58811a76566cb44c94c4a8788bcc10c
+      internalID: 1856327601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0134c028a23492541985c7423f92df0b
+      internalID: 50006196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a92fad52a512c44bada8eace799317f
+      internalID: -690816610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f668700da2b324c9d1345bcf73d2bc
+      internalID: 1499620961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836cc20961165cc4b88d98f7ed87f78c
+      internalID: -982124409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2c395b5c2dda141b0f5491eac4ff0b
+      internalID: -462654397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e3fac4d0f73764a8b6e801ab5df53f
+      internalID: 1828104911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a751aa4b19b5642a15a3d427d87c26
+      internalID: 310755953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a5d4e557ad5a745a7c970a66943bc5
+      internalID: -389425490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd380447c9ae0c94ba37ca24897604f7
+      internalID: -1389893116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36402b34418d8b240b6778e0931ee2bc
+      internalID: 1232562466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22efdaf0bcb4d8c4c8c0648db2578fe4
+      internalID: -1081727146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef55383f444fb04fb946958e697656b
+      internalID: -2118244520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b28b2b3a560e546b87839d1395cffa
+      internalID: 189361232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3eca120df01648a962cd3f170f995
+      internalID: -1322282849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a204cced4791e3c459b5bd08b7f22543
+      internalID: -284473420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6063011179a403f41855dd6a51c2d622
+      internalID: 497085985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410f302c48910094c98f0e8dc4cbe62e
+      internalID: -386340064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252cc048ec088dd4cb0a438f4f122b2c
+      internalID: -762515972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a543547ef8e2a45bd48ce92b7a7975
+      internalID: 215746027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f316bdcd7c62045b73d535417a046f
+      internalID: 1798288306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa962e4a3f85d0c4fa709c17985e81f7
+      internalID: -1535054333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a3e484db8b5f4fbfe59da178e9e39
+      internalID: 1926504762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1269e67c4d7e042a90de33411c3a74
+      internalID: 848023940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4426078219ec5e4ab230e75154559a5
+      internalID: 2106331405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b758ef49a19d72942b7c6ff56930854a
+      internalID: -194141919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a872b4dcaf595914fa9c951f16621b00
+      internalID: 171526186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b493c0fedeea18b4db996741368254a4
+      internalID: 1016712248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6ec5b31da583246ac19911950b00ed
+      internalID: -729025285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f89848a2d47d704e988a84bb024c116
+      internalID: 1715150548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827fc01290c5a8e4bbe96c6f99219945
+      internalID: -133628633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3da636db5bf8d14996dbd99e33f6f74
+      internalID: -1683589388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_0: -1224043207
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_1: 715274376
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_10: 382395949
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_100: -307046086
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_101: 1439263251
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_102: 441822353
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_103: 606616348
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_104: -1983713491
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_105: 1316211277
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_106: -257473785
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_107: 1422806144
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_108: -869988676
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_109: -1705035908
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_11: 1401696060
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_110: 1534505078
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_111: 1036628954
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_112: -640801941
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_113: -1115200076
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_114: -664968223
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_115: 304743008
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_116: -1139417552
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_117: 1834296349
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_118: 821030678
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_119: 319607389
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_12: -1956039294
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_120: -343902504
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_121: -1481386476
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_122: -395058795
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_123: -1222323588
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_124: 553194092
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_125: -1292487743
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_126: -1404837324
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_127: 633015157
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_128: 1101954902
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_129: -1504074729
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_13: -2032490985
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_130: 1856327601
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_131: 50006196
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_132: -690816610
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_133: 1499620961
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_134: -982124409
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_135: -462654397
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_136: 1828104911
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_137: 310755953
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_138: -389425490
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_139: -1389893116
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_14: -219814836
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_140: 1232562466
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_141: -1081727146
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_142: -2118244520
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_143: 189361232
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_144: -1322282849
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_145: -284473420
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_146: 497085985
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_147: -386340064
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_148: -762515972
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_149: 215746027
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_15: -572563024
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_150: 1798288306
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_151: -1535054333
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_152: 1926504762
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_153: 848023940
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_154: 2106331405
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_155: -194141919
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_156: 171526186
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_157: 1016712248
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_158: -729025285
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_159: 1715150548
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_16: -1938685834
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_160: -133628633
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_161: -1683589388
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_17: 2041129069
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_18: 26381069
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_19: 1413713926
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_2: -1283877524
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_20: 1015073537
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_21: -1568123230
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_22: -917148325
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_23: -1947019683
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_24: 2019516958
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_25: 543055029
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_26: -218047301
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_27: 291124800
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_28: 853101904
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_29: -131460292
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_3: -1438122686
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_30: -212060033
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_31: -1523446607
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_32: -452824577
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_33: -571283251
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_34: -653190117
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_35: 1825671140
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_36: 1310662463
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_37: -1996920520
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_38: -1660652979
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_39: -689061280
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_4: -660520378
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_40: 1620751222
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_41: 34091194
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_42: -924954657
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_43: -816292055
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_44: -1710200598
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_45: 2077694129
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_46: -188275151
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_47: -1879086200
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_48: -1167574772
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_49: 1913312811
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_5: 2103919518
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_50: 121669766
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_51: -205241147
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_52: 813987192
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_53: -1254315188
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_54: 730214784
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_55: -1197255036
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_56: 814356909
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_57: 1156943530
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_58: -842283766
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_59: -843763151
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_6: 681980775
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_60: 1584236529
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_61: -2109217296
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_62: 44114893
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_63: 1035820162
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_64: -1783435619
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_65: 1179309395
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_66: -749100125
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_67: 1661361808
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_68: -936919050
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_69: 545869374
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_7: -442220308
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_70: 912495458
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_71: -568046213
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_72: 223950287
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_73: 1405025063
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_74: 1947828290
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_75: -1827133562
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_76: 1863181763
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_77: 257639302
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_78: 270649885
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_79: -1305687989
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_8: -1766525104
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_80: -611294232
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_81: 984205641
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_82: 1193071253
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_83: 895749051
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_84: 96780028
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_85: -1919401833
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_86: 1909724462
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_87: 304363163
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_88: 320749498
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_89: -888998510
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_9: 1942860389
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_90: 1864592303
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_91: 1019354208
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_92: 1678375860
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_93: 482883365
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_94: -674635993
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_95: -1720539930
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_96: 1916157874
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_97: -496987335
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_98: 721004880
+      freddy_fazbear_s_pizza_tileset__rmxp__by_lagoon_sadnes_d8ochtr-fullview-removebg-preview_99: -1404485897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
