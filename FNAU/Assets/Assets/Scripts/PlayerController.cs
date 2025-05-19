@@ -26,8 +26,8 @@ public class NewBehaviourScript : MonoBehaviour
         // Aplicar movimiento
         transform.position += movimiento;
 
-        // Animación (velocidad general)
-        animator.SetFloat("movement", movimiento.magnitude * velocidad);
+        // Animaciï¿½n (velocidad general)
+        animator.SetFloat("movement", movimiento.magnitude);
 
         // Voltear sprite horizontalmente si hay movimiento en X
         if (inputX < 0)
