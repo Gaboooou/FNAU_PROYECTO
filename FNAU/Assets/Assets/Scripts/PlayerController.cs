@@ -5,31 +5,38 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     public float velocidad = 5f;
-
     public Animator animator;
-    // Start is called before the first frame update
+
+    private Vector3 escalaOriginal;
+
     void Start()
     {
-        
+        escalaOriginal = transform.localScale;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        float velocidadX = Input.GetAxis("Horizontal")*Time.deltaTime*velocidad;
-        animator.SetFloat("movement", velocidadX*velocidad);
-        
-        if (velocidadX < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else if (velocidadX > 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
+        // Entrada en ambos ejes
+        float inputX = Input.GetAxis("Horizontal");
+        float inputY = Input.GetAxis("Vertical");
 
-        Vector3 posicion = transform.position;
-        transform.position = new Vector3(velocidadX + posicion.x, posicion.y, posicion.z); 
-        
+        // Movimiento calculado
+        Vector3 movimiento = new Vector3(inputX, inputY, 0f).normalized * velocidad * Time.deltaTime;
+
+        // Aplicar movimiento
+        transform.position += movimiento;
+
+        // Animación (velocidad general)
+        animator.SetFloat("movement", movimiento.magnitude * velocidad);
+
+        // Voltear sprite horizontalmente si hay movimiento en X
+        if (inputX < 0)
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+        }
+        else if (inputX > 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+        }
     }
 }
