@@ -4,22 +4,23 @@ public class EnemyFollow : MonoBehaviour
 {
     public Transform player;
     public float speed = 3f;
-    public AudioSource tensionMusic;  // AudioSource para la música de tensión
+    public AudioSource tensionMusic;  // Música tensión
 
-    private bool isChasing = false;
-
-    private void Start()
-    {
-        // Opcional: empezar quieto y luego activar persecución desde afuera o directamente desde aquí
-        isChasing = true;
-        if (tensionMusic != null)
-        {
-            tensionMusic.Play();
-        }
-    }
+    private bool isChasing = true;
+    private bool tensionStarted = false; // Para saber si ya empezó la música
 
     private void Update()
     {
+        if (isChasing && tensionStarted && tensionMusic != null && !tensionMusic.isPlaying)
+        {
+            tensionMusic.Play();
+        }
+
+        if (!isChasing && tensionMusic != null && tensionMusic.isPlaying)
+        {
+            tensionMusic.Stop();
+        }
+
         if (!isChasing || player == null) return;
 
         Vector3 direction = (player.position - transform.position).normalized;
@@ -30,14 +31,24 @@ public class EnemyFollow : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isChasing = false;              // Detener persecución
-            if (tensionMusic != null)
+            isChasing = false;
+
+            if (tensionMusic != null && tensionMusic.isPlaying)
             {
-                tensionMusic.Stop();        // Parar música
+                tensionMusic.Stop();
             }
 
-            // Aquí puedes agregar código para "atacar" o hacer lo que quieras cuando toque al jugador
             Debug.Log("Jugador atrapado!");
+        }
+
+        if (other.CompareTag("Door"))
+        {
+            if (tensionMusic != null && !tensionMusic.isPlaying)
+            {
+                tensionMusic.Play();
+                tensionStarted = true;
+                Debug.Log("Música de tensión activada al tocar la puerta.");
+            }
         }
     }
 }

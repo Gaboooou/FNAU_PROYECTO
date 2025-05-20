@@ -9,21 +9,24 @@ public class CambioEscena : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
             CambiarNivel(indiceNivel);
         }
 
-        if (pasarNivel) {
+        if (pasarNivel)
+        {
             CambiarNivel(indiceNivel);
         }
     }
-    public void CambiarNivel(int indice) {
+    public void CambiarNivel(int indice)
+    {
         SceneManager.LoadScene(indice);
     }
 }
