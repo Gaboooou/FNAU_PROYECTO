@@ -39,4 +39,10 @@ public class NewBehaviourScript : MonoBehaviour
             transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z); // mira a la derecha (flip)
         }
     }
+
+
+
+
+
+
 }
