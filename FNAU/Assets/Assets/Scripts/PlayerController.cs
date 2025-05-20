@@ -20,23 +20,23 @@ public class NewBehaviourScript : MonoBehaviour
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
 
-        // Movimiento calculado
-        Vector3 movimiento = new Vector3(inputX, inputY, 0f).normalized * velocidad * Time.deltaTime;
+        Vector3 input = new Vector3(inputX, inputY, 0f).normalized;
+        Vector3 movimiento = input * velocidad * Time.deltaTime;
 
         // Aplicar movimiento
         transform.position += movimiento;
 
         // Animaci�n (velocidad general)
-        animator.SetFloat("movement", movimiento.magnitude);
+        animator.SetFloat("movement", input.magnitude);
 
         // Voltear sprite horizontalmente si hay movimiento en X
         if (inputX < 0)
         {
-            transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z); // mira a la izquierda
         }
         else if (inputX > 0)
         {
-            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+            transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z); // mira a la derecha (flip)
         }
     }
 }
