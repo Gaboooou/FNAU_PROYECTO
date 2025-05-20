@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Camara.unity
     guid: 1ef1a0a0b40823f4592c8ac331f83f90
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: bff0c511c0f1b0c488eb72a8ce439bdd
   m_configObjects: {}
