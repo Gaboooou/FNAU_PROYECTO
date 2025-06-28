@@ -2523,7 +2523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7009bf47984c6b4691c7ce31f92ae9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 2
+  velocidad: 4
   animator: {fileID: 1057234668}
 --- !u!50 &1057234673
 Rigidbody2D:
@@ -2691,7 +2691,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1389077331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3625,8 +3625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603877b9181fd84c95aef1b256d1d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pasarNivel: 0
-  indiceNivel: 0
 --- !u!1 &1849752700
 GameObject:
   m_ObjectHideFlags: 0
