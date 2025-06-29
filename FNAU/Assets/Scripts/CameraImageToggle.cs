@@ -6,6 +6,7 @@ public class CameraImageToggle : MonoBehaviour
     public GameObject Mapa;     
     public GameObject Pasillo1;  
     public GameObject Pasillo2;
+    public GameObject Sala;
 
     private bool isVisible = false;
     private int currentPasillo = 0;
@@ -22,6 +23,7 @@ public class CameraImageToggle : MonoBehaviour
             {
                 Pasillo1.SetActive(false);
                 Pasillo2.SetActive(false);
+                Sala.SetActive(false);
                 currentPasillo = 0;
             }
         }
@@ -37,6 +39,7 @@ public class CameraImageToggle : MonoBehaviour
             {
                 Pasillo1.SetActive(true);
                 Pasillo2.SetActive(false);
+                Sala.SetActive(false); 
                 currentPasillo = 1;
             }
         }
@@ -52,7 +55,23 @@ public class CameraImageToggle : MonoBehaviour
             {
                 Pasillo2.SetActive(true);
                 Pasillo1.SetActive(false);
+                Sala.SetActive(false);  
                 currentPasillo = 2;
+            }
+        }
+
+        if (isVisible && Input.GetKeyDown(KeyCode.Alpha3)) 
+        {
+            if (Sala.activeSelf)
+            {
+                Sala.SetActive(false);  
+            }
+            else
+            {
+                Sala.SetActive(true); 
+                Pasillo1.SetActive(false);
+                Pasillo2.SetActive(false);
+                currentPasillo = 0;
             }
         }
     }
