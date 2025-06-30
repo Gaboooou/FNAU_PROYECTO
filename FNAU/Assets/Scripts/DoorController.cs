@@ -8,7 +8,7 @@ public class DoorController : MonoBehaviour
     public float duracionCierre = 5f;
 
     private bool jugadorCerca = false;
-    private bool puertaCerrada = false;
+    public bool puertaCerrada = false;
 
     void Start()
     {
@@ -19,6 +19,7 @@ public class DoorController : MonoBehaviour
 
     void Update()
     {
+        // Si el jugador está cerca y presiona la tecla, cerramos la puerta
         if (jugadorCerca && !puertaCerrada && Input.GetKeyDown(teclaCerrar))
         {
             StartCoroutine(CerrarPuertaPorTiempo());
@@ -50,5 +51,10 @@ public class DoorController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
             jugadorCerca = false;
+    }
+    
+    public bool IsPuertaCerrada()
+    {
+        return puertaCerrada;
     }
 }
