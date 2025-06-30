@@ -16,18 +16,32 @@ public class EnemyFollow : MonoBehaviour
     private bool enemigoEnPasillo = false;
     private bool isEnSala = true;  // El enemigo empieza en la sala
     private float tiempoRestante;  // Para almacenar el tiempo restante para que el enemigo empiece a perseguir
+    private float tiempoAleatorio; // Tiempo aleatorio para que el enemigo se mueva a un pasillo
 
     void Start()
     {
         // El enemigo empieza en la sala, pero no persigue al jugador
-        isChasing = false; 
+        isChasing = false;
         gameObject.SetActive(true);  // Aseguramos que el GameObject del enemigo esté activo al inicio
+
+        // Rango aleatorio entre 10 y 30 segundos para comenzar a moverse
+        tiempoAleatorio = Random.Range(10f, 30f);
 
         tiempoRestante = tiempoParaCerrarPuerta;  // Inicializamos el tiempo restante
     }
 
     void Update()
     {
+        // Esperar el tiempo aleatorio para que el enemigo empiece a moverse
+        if (tiempoAleatorio > 0)
+        {
+            tiempoAleatorio -= Time.deltaTime;  // Reducir el tiempo restante cada frame
+        }
+        else if (!isChasing && !tensionStarted)  // Si el tiempo ha pasado y el enemigo aún no persigue
+        {
+            MoverAPasilloAleatorio();  // El enemigo se mueve a un pasillo aleatorio
+        }
+
         // Si el jugador no ha cerrado la puerta en el tiempo permitido, empieza la persecución
         if (tiempoRestante > 0)
         {
@@ -105,6 +119,7 @@ public class EnemyFollow : MonoBehaviour
     {
         tiempoRestante = tiempoParaCerrarPuerta;  // Reiniciar el cronómetro
         isChasing = false;  // Detener la persecución
+        RegresarASala();  // El enemigo regresa a la sala
         Debug.Log("La puerta ha sido cerrada a tiempo.");
     }
 

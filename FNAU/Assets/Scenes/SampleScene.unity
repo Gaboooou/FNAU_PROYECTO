@@ -233,7 +233,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 575}
+  m_SizeDelta: {x: 1200, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327925982
 MonoBehaviour:
@@ -307,6 +307,9 @@ MonoBehaviour:
   Pasillo1: {fileID: 897078195}
   Pasillo2: {fileID: 627457864}
   Sala: {fileID: 1614426729}
+  Pasillo1enemigo: {fileID: 327925980}
+  Pasillo2enemigo: {fileID: 1219105219}
+  SalaSinEnemigo: {fileID: 225378919}
 --- !u!4 &378183623
 Transform:
   m_ObjectHideFlags: 0
@@ -1890,8 +1893,8 @@ Transform:
   m_GameObject: {fileID: 838155628}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.0104, z: 0}
+  m_LocalScale: {x: 1, y: 0.9979, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 763168341}
@@ -3687,7 +3690,7 @@ Transform:
   m_GameObject: {fileID: 1389077328}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.42, y: 9.04, z: 0}
+  m_LocalPosition: {x: 5.53, y: 8.88, z: 0}
   m_LocalScale: {x: 0.753281, y: 0.73480606, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3786,7 +3789,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3.661593
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -4507,7 +4510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: 57}
+  m_AnchoredPosition: {x: -3.605, y: 0}
   m_SizeDelta: {x: 506.0458, y: 398.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578518170
@@ -5210,8 +5213,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.2, y: -52.1}
-  m_SizeDelta: {x: 1000, y: 950}
+  m_AnchoredPosition: {x: 0.89998, y: -0.000012398}
+  m_SizeDelta: {x: 1191.8, y: 631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953427602
 MonoBehaviour:
@@ -5233,7 +5236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b43372d4ec082524993fe2f67e231c10, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab05e18332da1bf43b962a7451ed22ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
