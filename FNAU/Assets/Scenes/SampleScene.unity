@@ -3517,7 +3517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 70c6d97bd89d5ab44be2db933bd9b611, type: 3}
+      - m_Target: {fileID: 378183621}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -4461,7 +4461,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 70c6d97bd89d5ab44be2db933bd9b611, type: 3}
+      - m_Target: {fileID: 378183621}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
