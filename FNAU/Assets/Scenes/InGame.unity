@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoHora: {fileID: 1491368397}
-  segundosPorHora: 10
+  segundosPorHora: 1
 --- !u!4 &66648034
 Transform:
   m_ObjectHideFlags: 0
@@ -2510,6 +2510,11 @@ Transform:
   - {fileID: 838155629}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &786270577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+  m_PrefabInstance: {fileID: 2028196406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &838155628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,7 +3969,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
   m_PrefabInstance: {fileID: 2028196406}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 786270577}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
@@ -4653,6 +4658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e49130f49ebc42d4ca8a67eee3810be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystick: {fileID: 786270577}
+  botonCerrarPuerta: {fileID: 515894312}
   screamerImage: {fileID: 461457215}
   screamerSound: {fileID: 1460698693}
   gameOverImage: {fileID: 923918589}
@@ -4713,6 +4720,7 @@ MonoBehaviour:
   doorController1: {fileID: 1849752704}
   doorController2: {fileID: 1044297083}
   tiempoParaCerrarPuerta: 10
+  enemy: {fileID: 0}
 --- !u!82 &1389077336
 AudioSource:
   m_ObjectHideFlags: 0

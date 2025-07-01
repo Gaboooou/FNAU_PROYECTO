@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class ScreamerTrigger : MonoBehaviour
 {
+    public GameObject joystick;
+    public GameObject botonCerrarPuerta;
     public GameObject screamerImage;
     public AudioSource screamerSound;
 
@@ -28,13 +30,17 @@ public class ScreamerTrigger : MonoBehaviour
         screamerImage.SetActive(true);
         if (screamerSound != null) screamerSound.Play();
 
+        // 🔴 Desactiva joystick y botón flotante
+        if (joystick != null) joystick.SetActive(false);
+        if (botonCerrarPuerta != null) botonCerrarPuerta.SetActive(false);
+
         yield return new WaitForSeconds(screamerDuration);
 
         screamerImage.SetActive(false);
         gameOverImage.SetActive(true);
         retryButton.SetActive(true);
 
-        if (gameOverSound != null) gameOverSound.Play(); // 🎵 Reproduce sonido Game Over
+        if (gameOverSound != null) gameOverSound.Play();
 
         Time.timeScale = 0f;
     }
