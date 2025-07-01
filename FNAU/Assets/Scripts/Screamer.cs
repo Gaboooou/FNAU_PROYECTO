@@ -8,10 +8,6 @@ public class ScreamerTrigger : MonoBehaviour
     public GameObject screamerImage;
     public AudioSource screamerSound;
 
-    public GameObject gameOverImage;
-    public GameObject retryButton;
-    public AudioSource gameOverSound;     // 🎵 NUEVO: sonido de Game Over
-
     public float screamerDuration = 3f;
 
     private bool hasTriggered = false;
@@ -30,24 +26,12 @@ public class ScreamerTrigger : MonoBehaviour
         screamerImage.SetActive(true);
         if (screamerSound != null) screamerSound.Play();
 
-        // 🔴 Desactiva joystick y botón flotante
         if (joystick != null) joystick.SetActive(false);
         if (botonCerrarPuerta != null) botonCerrarPuerta.SetActive(false);
 
         yield return new WaitForSeconds(screamerDuration);
 
-        screamerImage.SetActive(false);
-        gameOverImage.SetActive(true);
-        retryButton.SetActive(true);
-
-        if (gameOverSound != null) gameOverSound.Play();
-
-        Time.timeScale = 0f;
-    }
-
-    public void RestartGame()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // 🔁 Carga la escena de Game Over directamente
+        SceneManager.LoadScene("Gameover");
     }
 }

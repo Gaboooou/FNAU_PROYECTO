@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\screamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\screamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\scripts\\victoriascriptnoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\victoriascriptnoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\NewBehaviourScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameOverManager.cs",
+              "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\GameOverManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverManager.cs",
+              "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\GameOverManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOverManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T21:37:47.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Screamer.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\Screamer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Screamer.cs",
               "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\Screamer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Screamer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwC0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowCIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T20:41:28.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DoorController.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\DoorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
@@ -91,36 +108,35 @@
               "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T20:17:09.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T20:17:09.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "VictoriascriptNoche.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\VictoriascriptNoche.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VictoriascriptNoche.cs",
               "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\VictoriascriptNoche.cs",
               "RelativeToolTip": "Assets\\Scripts\\VictoriascriptNoche.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T03:49:26.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "reloj.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\reloj.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\reloj.cs",
               "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\reloj.cs",
               "RelativeToolTip": "Assets\\Scripts\\reloj.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T03:30:09.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\NewBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewBehaviourScript.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "cameraonclick.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\cameraonclick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cameraonclick.cs",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EnemyFollow.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\EnemyFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
@@ -155,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "aaaaa.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\aaaaa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\aaaaa.cs",
@@ -166,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "camera_control.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\camera_control.cs",
               "RelativeDocumentMoniker": "Assets\\camera_control.cs",
@@ -178,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Screamer.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Screamer.cs",
               "RelativeDocumentMoniker": "Assets\\Screamer.cs",
@@ -189,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Screamer.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Assets\\Scripts\\Screamer.cs",
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\Screamer.cs",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CambioEscena.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Assets\\Scripts\\CambioEscena.cs",
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\CambioEscena.cs",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EnemyFollow.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Assets\\Scripts\\EnemyFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\EnemyFollow.cs",
@@ -224,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Assets\\Scripts\\PlayerController.cs",

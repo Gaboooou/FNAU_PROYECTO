@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoHora: {fileID: 1491368397}
-  segundosPorHora: 1
+  segundosPorHora: 10
 --- !u!4 &66648034
 Transform:
   m_ObjectHideFlags: 0
@@ -4662,9 +4662,6 @@ MonoBehaviour:
   botonCerrarPuerta: {fileID: 515894312}
   screamerImage: {fileID: 461457215}
   screamerSound: {fileID: 1460698693}
-  gameOverImage: {fileID: 923918589}
-  retryButton: {fileID: 391013542}
-  gameOverSound: {fileID: 978894453}
   screamerDuration: 3
 --- !u!70 &1389077334
 CapsuleCollider2D:
