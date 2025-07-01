@@ -9,6 +9,7 @@ public class MenuSystem : MonoBehaviour
     public void Jugar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SoundManager.instance.ActivarEfecto("click-tap-computer-mouse-352734");
     }
 
     public void Salir() 
