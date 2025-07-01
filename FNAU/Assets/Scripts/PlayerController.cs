@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
     public float velocidad = 5f;
     public Animator animator;
+    public FixedJoystick joystick;  // Drag & Drop desde el Inspector
 
     private Vector3 escalaOriginal;
 
@@ -16,33 +15,18 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        // Entrada en ambos ejes
-        float inputX = Input.GetAxis("Horizontal");
-        float inputY = Input.GetAxis("Vertical");
+        float inputX = joystick.Horizontal;
+        float inputY = joystick.Vertical;
 
         Vector3 input = new Vector3(inputX, inputY, 0f).normalized;
         Vector3 movimiento = input * velocidad * Time.deltaTime;
-
-        // Aplicar movimiento
         transform.position += movimiento;
 
-        // Animaci�n (velocidad general)
         animator.SetFloat("movement", input.magnitude);
 
-        // Voltear sprite horizontalmente si hay movimiento en X
-        if (inputX < 0)
-        {
-            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z); // mira a la izquierda
-        }
-        else if (inputX > 0)
-        {
-            transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z); // mira a la derecha (flip)
-        }
+        if (inputX < -0.01f)
+            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+        else if (inputX > 0.01f)
+            transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
     }
-
-
-
-
-
-
 }

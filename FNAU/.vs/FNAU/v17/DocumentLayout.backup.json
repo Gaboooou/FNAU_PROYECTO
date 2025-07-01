@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\victoriascriptnoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reloj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\VictoriascriptNoche.cs",
               "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\VictoriascriptNoche.cs",
               "RelativeToolTip": "Assets\\Scripts\\VictoriascriptNoche.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T03:49:26.616Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Assets\\Scripts\\reloj.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T03:30:09.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T03:30:09.354Z"
             },
             {
               "$type": "Document",

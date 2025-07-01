@@ -58,4 +58,13 @@ public class DoorController : MonoBehaviour
     {
         return puertaCerrada;
     }
+    
+    public void CerrarPuertaDesdeBoton()
+{
+    if (jugadorCerca && !puertaCerrada)
+    {
+        SoundManager.instance.ActivarEfecto("Cerrar puerta");
+        StartCoroutine(CerrarPuertaPorTiempo());
+    }
+}
 }

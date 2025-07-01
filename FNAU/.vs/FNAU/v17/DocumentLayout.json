@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|c:\\users\\noble\\documents\\github\\fnau_proyecto\\fnau\\assets\\scripts\\victoriascriptnoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\victoriascriptnoche.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\aaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\assets\\camera_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C4E6739-0128-EB39-4024-96F221D4CF72}|Assembly-CSharp.csproj|solutionrelative:assets\\camera_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Screamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Screamer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\camera_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\camera_control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DoorController.cs",
+              "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\DoorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorController.cs",
+              "ToolTip": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\DoorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:17:09.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VictoriascriptNoche.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\VictoriascriptNoche.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VictoriascriptNoche.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "reloj.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\reloj.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\reloj.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\NewBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewBehaviourScript.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "cameraonclick.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\cameraonclick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cameraonclick.cs",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnemyFollow.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\EnemyFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
@@ -122,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "aaaaa.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\Scripts\\aaaaa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\aaaaa.cs",
@@ -133,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "camera_control.cs",
               "DocumentMoniker": "C:\\Users\\noble\\Documents\\GitHub\\FNAU_PROYECTO\\FNAU\\Assets\\camera_control.cs",
               "RelativeDocumentMoniker": "Assets\\camera_control.cs",
