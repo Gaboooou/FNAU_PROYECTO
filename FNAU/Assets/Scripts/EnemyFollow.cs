@@ -2,32 +2,33 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform player; 
-    public float speed = 3f; 
+    public Transform player;
+    public float speed = 3f;
     public AudioSource tensionMusic;
     public ScreenFlashEffect screenFlashEffect;
     public DoorController doorController1;  
     public DoorController doorController2;  
     public float tiempoParaCerrarPuerta = 10f; 
 
-    private bool isChasing = false;  // El enemigo empieza sin perseguir
-    private bool tensionStarted = false;  // Para empezar la música de tensión
-    private bool enemigoEnPasillo = false;  // Si el enemigo está en un pasillo
-    private bool isEnSala = true;  // El enemigo empieza en la sala
-    private float tiempoRestante;  // Tiempo para que el enemigo comience a perseguir
-    private float tiempoAleatorio; // Tiempo aleatorio para que el enemigo se mueva a un pasillo
+    public GameObject enemy;  // Asignado en el Inspector, el objeto Enemy
+
+    private bool isChasing = false;  
+    private bool tensionStarted = false; 
+    private bool enemigoEnPasillo = false; 
+    private bool isEnSala = true;  
+    private float tiempoRestante;  
+    private float tiempoAleatorio; 
+
+    private Vector3 pasilloIzquierdaPos = new Vector3(5.38f, 10.53f, 0f); 
+    private Vector3 pasilloDerechaPos = new Vector3(-6.47f, 10.77f, 0f); 
 
     void Start()
     {
-        // Inicializamos el enemigo en la sala y esperando el tiempo aleatorio
-        isChasing = false;
-        tiempoRestante = tiempoParaCerrarPuerta;
-        tiempoAleatorio = Random.Range(10f, 30f);  // Rango aleatorio para que el enemigo espere entre 10 y 30 segundos
+        ResetEnemy();
     }
 
     void Update()
     {
-        // Si el enemigo no está persiguiendo ni en el pasillo, se mueve a un pasillo aleatorio
         if (!isChasing && !enemigoEnPasillo)
         {
             MoverAPasilloAleatorio();
@@ -46,11 +47,10 @@ public class EnemyFollow : MonoBehaviour
         // Si la puerta está cerrada, el enemigo no puede moverse hacia ella
         if (doorController1.puertaCerrada || doorController2.puertaCerrada)
         {
-            StopMovement();
-            return;  // Si la puerta está cerrada, no se mueve el enemigo
+            StopMovement();  // El enemigo se detiene
+            return;
         }
 
-        // Comportamiento de persecución solo si está persiguiendo
         if (isChasing)
         {
             if (!tensionStarted)
@@ -70,7 +70,6 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
-    // Método para mover al enemigo a un pasillo aleatorio
     public void MoverAPasilloAleatorio()
     {
         if (isEnSala && !isChasing)
@@ -79,33 +78,47 @@ public class EnemyFollow : MonoBehaviour
 
             if (pasilloRandom == 1) 
             {
-                transform.position = new Vector3(5.38f, 10.53f, 0f);  // Posición del pasillo izquierdo
+                transform.position = pasilloIzquierdaPos;  // Posición del pasillo izquierdo
                 enemigoEnPasillo = true;
                 isEnSala = false;
             }
             else if (pasilloRandom == 2) 
             {
-                transform.position = new Vector3(-6.47f, 10.77f, 0f);  // Posición del pasillo derecho
+                transform.position = pasilloDerechaPos;  // Posición del pasillo derecho
                 enemigoEnPasillo = true;
                 isEnSala = false;
             }
         }
     }
 
-    // Método para regresar al enemigo a la sala
     public void RegresarASala()
     {
         if (enemigoEnPasillo)
         {
             enemigoEnPasillo = false;
             isEnSala = true;
-            transform.position = new Vector3(5.38f, 10.53f, 0f);  // El enemigo regresa a la sala
-            gameObject.SetActive(false);  // Desactivamos el enemigo para reiniciar su ciclo
-            tiempoAleatorio = Random.Range(10f, 30f);  // Reiniciamos el tiempo aleatorio para que el enemigo espere nuevamente
+            transform.position = pasilloIzquierdaPos;  // El enemigo regresa a la sala
+            enemy.SetActive(false);  // Desactivamos el enemigo
+
+            // Reactivamos el enemigo y reiniciamos el ciclo
+            Invoke(nameof(ReactivarEnemy), 2f);  // Reactivamos el enemigo después de 2 segundos
         }
     }
 
-    // Método de colisión con el jugador
+    private void ReactivarEnemy()
+    {
+        enemy.SetActive(true);  // Reactivamos el enemigo
+        ResetEnemy();  // Reiniciamos todos los valores del enemigo
+    }
+
+    private void ResetEnemy()
+    {
+        isChasing = false;  // El enemigo deja de perseguir
+        tensionStarted = false;  // La tensión no ha comenzado
+        tiempoRestante = tiempoParaCerrarPuerta;  // Reiniciamos el tiempo para cerrar la puerta
+        tiempoAleatorio = Random.Range(10f, 30f);  // Espera aleatoria entre 10 y 30 segundos
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -117,17 +130,15 @@ public class EnemyFollow : MonoBehaviour
         if (other.CompareTag("Door") && (doorController1.puertaCerrada || doorController2.puertaCerrada))
         {
             StopMovement();  // El enemigo se detiene al tocar la puerta
-            RegresarASala();  // El enemigo regresa a la sala y reinicia el ciclo
+            RegresarASala();  // El enemigo regresa a la sala y reinicia su ciclo
         }
     }
 
-    // Método para saber si el enemigo está en la sala
     public bool IsEnSala()
     {
         return isEnSala;
     }
 
-    // Método para que el jugador cierre la puerta y reinicie el cronómetro
     public void CerrarPuerta()
     {
         tiempoRestante = tiempoParaCerrarPuerta;  // Reinicia el cronómetro
@@ -135,7 +146,6 @@ public class EnemyFollow : MonoBehaviour
         RegresarASala();  // El enemigo regresa a la sala
     }
 
-    // Detener el movimiento del enemigo cuando la puerta está cerrada
     public void StopMovement()
     {
         isChasing = false;  // Detenemos al enemigo si está tocando la puerta
