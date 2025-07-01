@@ -6,7 +6,6 @@ public class EnemyFollow : MonoBehaviour
     public float speed = 3f;
     public AudioSource tensionMusic;
     public ScreenFlashEffect screenFlashEffect;
-    public CameraImageToggle cameraToggle;  // Referencia al script CameraImageToggle
     public DoorController doorController1;  // Primera puerta
     public DoorController doorController2;  // Segunda puerta
     public float tiempoParaCerrarPuerta = 10f;  // El tiempo para cerrar la puerta
@@ -86,7 +85,6 @@ public class EnemyFollow : MonoBehaviour
         int pasilloRandom = Random.Range(1, 3); 
         enemigoEnPasillo = true;
         isEnSala = false;  // El enemigo se mueve a un pasillo
-        cameraToggle.ActivarPasillo(pasilloRandom);  // Cambiar la imagen del pasillo
     }
 
     public void RegresarASala()
@@ -95,7 +93,6 @@ public class EnemyFollow : MonoBehaviour
         {
             enemigoEnPasillo = false;
             isEnSala = true;  // El enemigo regresa a la sala
-            cameraToggle.RegresarASala();  // Regresa a la imagen de la sala
         }
     }
 
