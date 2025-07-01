@@ -606,7 +606,7 @@ MonoBehaviour:
   camarasConEnemigo:
   - {fileID: 225378919}
   - {fileID: 327925980}
-  - {fileID: 327925980}
+  - {fileID: 1219105219}
   tiempoCambio: 5
 --- !u!1 &391013542
 GameObject:
@@ -2415,7 +2415,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627457864}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -0.67, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4573,7 +4573,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1389077331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4635,7 +4635,7 @@ Transform:
   m_GameObject: {fileID: 1389077328}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.33, y: 12.34, z: 0}
+  m_LocalPosition: {x: 5.52, y: 10.56, z: 0}
   m_LocalScale: {x: 0.753281, y: 0.73480606, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4733,7 +4733,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 3.661593
+  MinDistance: 2.5841913
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

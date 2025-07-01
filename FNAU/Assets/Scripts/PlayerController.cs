@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         escalaOriginal = transform.localScale;
+        SoundManager.instance.ReproducirMusica(SoundManager.instance.MusicaPrincipal);
     }
 
     void Update()
