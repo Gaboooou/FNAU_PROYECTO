@@ -298,14 +298,14 @@ RectTransform:
   m_GameObject: {fileID: 225378919}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233.3, y: 264.8}
+  m_AnchoredPosition: {x: -73.09337, y: 49.940002}
   m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225378921
@@ -505,17 +505,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327925980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.4, y: 264.8}
-  m_SizeDelta: {x: 1200, y: 900}
+  m_AnchoredPosition: {x: -71.0267, y: 49.940002}
+  m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327925982
 MonoBehaviour:
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 378183621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd3f3ee77272bb74a966e7afcf71426e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e19cfac4117bfc468595dc19e6674ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camarasIniciales:
@@ -607,7 +607,11 @@ MonoBehaviour:
   - {fileID: 225378919}
   - {fileID: 327925980}
   - {fileID: 1219105219}
-  tiempoCambio: 5
+  camarasActuales:
+  - {fileID: 1614426729}
+  - {fileID: 897078195}
+  - {fileID: 627457864}
+  TiempoEspera: 8
 --- !u!1 &391013542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,12 +1202,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1953427601}
-  - {fileID: 225378920}
-  - {fileID: 897078196}
-  - {fileID: 627457865}
-  - {fileID: 1614426730}
-  - {fileID: 327925981}
-  - {fileID: 1219105220}
   m_Father: {fileID: 1445315315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2417,14 +2415,14 @@ RectTransform:
   m_GameObject: {fileID: 627457864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.4, y: 264.8}
+  m_AnchoredPosition: {x: -71.0267, y: 49.940002}
   m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627457866
@@ -3408,16 +3406,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897078195}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.4, y: 264.8}
+  m_AnchoredPosition: {x: -71.0267, y: 49.940002}
   m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &897078197
@@ -3699,7 +3697,7 @@ GameObject:
   - component: {fileID: 955230884}
   - component: {fileID: 955230887}
   m_Layer: 5
-  m_Name: BotonPasillo1
+  m_Name: BotonPasillo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3775,7 +3773,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4507,16 +4505,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219105219}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.4, y: 264.8}
+  m_AnchoredPosition: {x: -71.0267, y: 49.940002}
   m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1219105221
@@ -5816,16 +5814,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614426729}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.67, y: 0.78, z: 1}
+  m_LocalScale: {x: -0.4466667, y: 0.78, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 524476552}
+  m_Father: {fileID: 1953427601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.4, y: 264.8}
+  m_AnchoredPosition: {x: -71.0267, y: 49.940002}
   m_SizeDelta: {x: 1200, y: 575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614426731
@@ -6097,7 +6095,7 @@ GameObject:
   - component: {fileID: 1709451199}
   - component: {fileID: 1709451202}
   m_Layer: 5
-  m_Name: BotonSala
+  m_Name: BotonPasillo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6173,7 +6171,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6436,7 +6434,7 @@ GameObject:
   - component: {fileID: 1851145379}
   - component: {fileID: 1851145382}
   m_Layer: 5
-  m_Name: BotonPasillo2
+  m_Name: BotonSala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6512,7 +6510,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6648,6 +6646,12 @@ RectTransform:
   - {fileID: 1709451198}
   - {fileID: 1851145378}
   - {fileID: 1682894043}
+  - {fileID: 1219105220}
+  - {fileID: 327925981}
+  - {fileID: 1614426730}
+  - {fileID: 627457865}
+  - {fileID: 897078196}
+  - {fileID: 225378920}
   m_Father: {fileID: 524476552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

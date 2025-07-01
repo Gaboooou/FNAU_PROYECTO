@@ -12,6 +12,8 @@ public class CameraController : MonoBehaviour
 
     private GameObject actualActiva = null;
 
+    private GameObject CamaraActividad;
+
 
     public float TiempoEspera = 5f;
 
@@ -52,7 +54,6 @@ public class CameraController : MonoBehaviour
             int direccion = Random.Range(1, 3);
             Debug.Log("¡El enemigo ha ido hacia " + (direccion == 1 ? "la izquierda" : "la derecha") + "!");
 
-            SoundManager.instance.ActivarEfecto("Estatica");
             for (int i = 0; i < 3; i++) // Asumiendo que 1, 2 y 3 pueden cambiar
             {
                 if (camarasActuales[i] != null)
@@ -74,10 +75,7 @@ public class CameraController : MonoBehaviour
 
             yield return new WaitForSeconds(TiempoEspera);
 
-            
-            
-            SoundManager.instance.ActivarEfecto("Estatica");
-            
+
             Debug.Log("¡El enemigo ha atacado!");
 
         
