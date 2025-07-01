@@ -21,7 +21,8 @@ public class DoorController : MonoBehaviour
     {
         // Si el jugador está cerca y presiona la tecla, cerramos la puerta
         if (jugadorCerca && !puertaCerrada && Input.GetKeyDown(teclaCerrar))
-        {
+        {   
+            SoundManager.instance.ActivarEfecto("Cerrar puerta");
             StartCoroutine(CerrarPuertaPorTiempo());
         }
     }
@@ -32,13 +33,13 @@ public class DoorController : MonoBehaviour
 
         puertaSprite.enabled = true;
         colliderBloqueador.enabled = true;
-
         yield return new WaitForSeconds(duracionCierre);
 
         puertaSprite.enabled = false;
         colliderBloqueador.enabled = false;
 
         puertaCerrada = false;
+        SoundManager.instance.ActivarEfecto("AbrirPuerta");
     }
 
     void OnTriggerEnter2D(Collider2D other)
